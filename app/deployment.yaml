@@ -38,6 +38,7 @@ kind: Service
 metadata:
   name: app-ext-service
 spec:
+  type: NodePort
   selector:
     app: app
   ports:
@@ -45,3 +46,4 @@ spec:
     port: 8888
     targetPort: 8888
     nodePort: 8888
+  
