@@ -28,7 +28,7 @@ spec:
   selector:
     app: app
   ports:
-  - name: htpp
+  - name: http
     protocol: TCP
-    port: 80
+    port: 8888
     targetPort: 8888
