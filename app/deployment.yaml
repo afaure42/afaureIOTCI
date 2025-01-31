@@ -44,4 +44,4 @@ spec:
   - name: http
     port: 8888
     targetPort: 8888
-    nodePoort: 8888
+    nodePort: 8888
